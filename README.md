@@ -1,64 +1,102 @@
 <p align="center">
-  <img src="LuciferMoringstar_Robot/modules/logo/LuciferMoringstar-Robot-Logo.jpeg" alt="LuciferMoringstar Robot Logo">
+  <img src="assets/logo.jpg" alt="Ajax-Extra-FeaturesLogo">
 </p>
-
-<p align="center">
-  <a href="https://youtu.be/FCU_XJmyG_U">𝗟𝘂𝗰𝗶𝗳𝗲𝗿𝗠𝗼𝗿𝗶𝗻𝗴𝘀𝘁𝗮𝗿 𝗥𝗼𝗯𝗼𝘁</a>
-</p>
-
-<img src="https://img.shields.io/github/stars/PR0FESS0R-99/LuciferMoringstar-Robot?style=social" /> <img src="https://img.shields.io/github/forks/PR0FESS0R-99/LuciferMoringstar-Robot?style=social" />
+<h1 align="center">
+  <b>𝙰𝙹𝙰𝚇-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂</b>
+</h1>
 
 
+## Features
 
-### 🤔 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗲𝗽𝗹𝗼𝘆 🤔
-<a href="https://youtu.be/-xDQbsF-wek"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a> <img src="https://img.shields.io/youtube/views/-xDQbsF-wek?style=social">
+- [x] Auto Filter
+- [x] Manual Filter
+- [x] IMDB
+- [x] Admin Commands
+- [x] Broadcast
+- [x] Index
+- [x] IMDB search
+- [x] Inline Search
+- [x] Random pics
+- [x] ids and User info 
+- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
+- [x] Spelling Check Feature
+- [x] Youtube Video , Song , Thumbnail Download.
+- [x] Image Edit.
+- [x] Google Translator.
+- [x] Telegraph
+- [x] Entertainment
+- [x] Sticker ID Generator
+- [x] COVID Information
+- [x] File Store
 
-### 🔔 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🔔
-<a href="https://youtube.com/c/MoTech_YT"> <img src="https://youtube.com/c/MoTech_YT?V?label=Subscribers&style=for-the-badge&color=red&labelColor=ce463"/> </a>
+## Variables
 
-### 🔘 <a href="https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/tree/Professor-99/LuciferMoringstar_Robot/modules">𝗔𝗱𝗱𝗲𝗱 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀</a> 🔘
-
-- [x] IMDB Poster
-- [x] IMDB Rating
-- [x] Index Files
-- [x] Media Search
-- [x] AutoFilter 
-- [x] Via Mode
-- [x] Broadcast 
-- [x] Random Pics
-- [x] Check Spell
-- [x] Welcome
-- [x] Status
-- [x] Custom Caption
-
-### 🧑‍💻 𝗗𝗲𝗽𝗹𝗼𝘆 𝗧𝗼 𝗛𝗲𝗿𝗼𝗸𝘂 👨‍💻
-<a href="https://github.com/Zinan100/MOVIE-EMPIRE"><img src="https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LuciferMoringstar_Robot/modules/logo/LuciferMoringstar-Deploy-To-Heroku.jpg" alt="PR0FESS0R-99" border="0" height="125" width="200" align="center" /></a>
-
-
-### 📍 𝗥𝗲𝗾𝘂𝗶𝗿𝗲𝗱
-
+### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 * `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
 * `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
 * `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/gBLTsH-IXr0)
-
-* `FORCE_SUB`: ID of channel. Without subscribing this channel users cannot use bot.
-* `AUTH_GROUPS` : Id Of Groups Which Bot Should Work As Autofilter, Bot Can Only Work In Thease Groups. If Not Given , Bot Can Be Used In Any Group.
-* `AUTH_USERS`: Username Or Id Of Users To Give Access Of Inline Search. Separate Multiple Users By Space. Leave It Empty If You Don't Want To Restrict Bot Usage.
-* `START_MSG`: Welcome Message For Start Command Eg [Click Here](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LuciferMoringstar_Robot/modules/example/start_msg)
-* `CUSTOM_FILE_CAPTION` : A Custom Caption For Your Files. Eg [Click Here](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LuciferMoringstar_Robot/modules/example/file_caption.txt)
-* `PICS`: Telegraph Random Photo Eg [Click Here](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LuciferMoringstar_Robot/modules/example/photo.txt)
-* `DEV_NAME` : Developer Name
-* `SPELL_MODE` : Seplling Mode On Or Off
-* `SPELL_MODE_TEXT` : Set Coutom Spelling Mode Text Eg [Click Here](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LuciferMoringstar_Robot/modules/example/spell_check.txt)
-
-* `CACHE_TIME`: The maximum amount of time in seconds that the result of the inline query may be cached on the server
-* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/gBLTsH-IXr0)
-* `COLLECTION_NAME`: Name of the collections. Defaults to Telegram_files. If you going to use same database, then use different collection name for each bot
-* `USE_CAPTION_FILTER`: Whether bot should use captions to improve search results. (True/False)
+* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com).
+* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this 
+* `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
+### Optional Variables
+* `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
 
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/M_Qmfg)
+## Deploy
+You can deploy this bot anywhere.
 
+
+<details><summary>Deploy To Heroku</summary>
+<p>
+<br>
+<a href="https://heroku.com/deploy?template=https://github.com/Aadhi000/Ajax-Extra-Features">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+</p>
+</details>
+
+<details><summary>Deploy To VPS</summary>
+<p>
+<pre>
+git clone https://github.com/Aadhi000/Ajax-V3
+# Install Packages
+pip3 install -r requirements.txt
+Edit info.py with variables as given below then run bot
+python3 bot.py
+</pre>
+</p>
+</details>
+
+
+## Commands
+```
+• /logs - to get the rescent errors
+• /stats - to get status of files in db.
+* /filter - add manual filters
+* /filters - view filters
+* /connect - connect to PM.
+* /disconnect - disconnect from PM
+* /del - delete a filter
+* /delall - delete all filters
+* /deleteall - delete all index(autofilter)
+* /delete - delete a specific file from index.
+* /info - get user info
+* /id - get tg ids.
+* /imdb - fetch info from imdb.
+• /users - to get list of my users and ids.
+• /chats - to get list of the my chats and ids 
+• /index  - to add files from a channel
+• /leave  - to leave from a chat.
+• /disable  -  do disable a chat.
+* /enable - re-enable chat.
+• /ban  - to ban a user.
+• /unban  - to unban a user.
+• /channel - to get list of total connected channels
+• /broadcast - to broadcast a message to all Eva Maria users
+```
+
+𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [𝐀𝐚𝐝𝐡𝐢](https://t.me/Aadhi011)                                                                                                                                        
+𝙶𝚁𝙾𝚄𝙿 ›› [𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝](https://t.me/+EqhXLhL3T1w4Zjc1)                                             
+𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› [𝐋𝐚𝐭𝐞𝐬𝐭 𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐮𝐛](https://t.me/+veUIdIW2CQ5mOGU5)
